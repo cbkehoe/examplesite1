@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title>History of the Future</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+<link href="./CSS/examplesite1.css" rel="stylesheet" type="text/css" />
+<script src="/assets/jquery.js"></script>
+
+</head>
+
+<body>
+<h1>History of the Future</h1>
+<h2>TOLD IN THREE PARTS</h2>
+<div class="escape">
+  <p>THE BEGINNING<span class="part">1</span><br />
+  <small>The arc prepares to leave earth and find a new home after the loss of the robot wars. It carries the last remants of humanity and the few robots who remained loyal during the uprising. </small></p>
+</div>
+
+<div class="home">
+  <p>A NEW HOME<span class="part">2</span><br />
+  <small>Finally finding a suitable world to call home, humanity lands and begins to colonize the planet, naming it Terra. While building their new society, the settlers continually come across an ancient city with statues of a long-extinct alien race that look strangely human. A lone scientist ventures to the center of the city to find a sealed door emitting strange energy readings.</small></p>
+</div>
+  
+<div class="end">
+  <p>THE END...FOR NOW<span class="part">3</span><br />
+  <small>The scientist opened the door, causing a massive energy spike that revealed the location of Terra to the hostile robots still on earth. Thus the second robot war began... And then Tuxedo Shark came at some point and saved everyone. </small></p>
+  
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
